@@ -11,7 +11,6 @@ const Filter = ({ filter, onFilterChange }) => {
   );
 };
 export default Filter;
-
 Filter.propTypes = {
   filter: PropTypes.string,
   onFilterChange: PropTypes.func,

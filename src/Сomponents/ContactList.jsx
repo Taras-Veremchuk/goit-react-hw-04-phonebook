@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ContList, ContItem, ListBtn } from './PhoneBook.styled';
-
 const ContactList = ({ visibleContacts, deleteContact }) => {
   return (
     <ContList>
