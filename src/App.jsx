@@ -20,8 +20,8 @@ export default function App() {
     });
   };
   const changeFilter = event => {
-    setFilter({ filter: event.target.value });
-    this.filterContactList();
+    setFilter(event.target.value);
+    filterContactList();
   };
 
   const filterContactList = () => {
